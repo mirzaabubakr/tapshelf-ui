@@ -1,0 +1,30 @@
+.table-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10;
+}
+.table-buttons {
+  display: flex;
+  gap: 10px;
+}
+.table-button {
+  height: 50px;
+  gap: 10;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    flex-direction: column;
+  }
+
+  .table-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+    width: 100%;
+  }
+
+  .table-button {
+    width: 100%;
+  }
+}

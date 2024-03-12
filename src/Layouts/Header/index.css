@@ -1,0 +1,51 @@
+.left-side {
+  display: flex;
+  gap: 20px;
+  margin-left: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side {
+  display: flex;
+  gap: 15px;
+  margin: 0px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-button {
+  display: none;
+}
+
+.search-input {
+  min-width: 400px;
+}
+
+.TextField-container {
+  width: 300px;
+  padding: 10px;
+}
+
+.icon-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.icon-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-button {
+    display: inline;
+  }
+
+  .TextField-container {
+    width: 100%;
+  }
+}
